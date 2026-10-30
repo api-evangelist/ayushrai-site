@@ -64,5 +64,148 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ayushrai-site is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://ayushrai.site/
+Ayush Rai is an AI engineer and product builder who runs a personal website ayushrai.site showcasing his work, research, and open‑source projects. The site provides a free, public, read‑only REST API (OpenAPI 3.1) that mirrors the website content, along with an MCP server for tool discovery. The API is keyless, rate‑limited to 60 requests per minute, and includes endpoints for searching projects, retrieving project details, and accessing markdown content. This profile captures the public‑facing API and documentation of Ayush Rai’s personal site.
+
+**Areas:** Company · AI · Engineering · Consulting · Portfolio
+
+## ayushrai-site on APIs.io
+
+Everything profiled for ayushrai-site is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ayushrai-site/](https://apis.io/providers/ayushrai-site/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [ayushrai-site Ask API](https://apis.io/apis/ayushrai-site/ayushrai-site-ask-api/) — The Ask API from ayushrai-site — 1 operation(s) for ask.
+- [ayushrai-site Compare API](https://apis.io/apis/ayushrai-site/ayushrai-site-compare-api/) — The Compare API from ayushrai-site — 1 operation(s) for compare.
+- [ayushrai-site MCP API](https://apis.io/apis/ayushrai-site/ayushrai-site-mcp-api/) — The Mcp API from ayushrai-site — 1 operation(s) for mcp.
+- [ayushrai-site Projects API](https://apis.io/apis/ayushrai-site/ayushrai-site-projects-api/) — The Projects API from ayushrai-site — 3 operation(s) for projects.
+- [ayushrai-site Search API](https://apis.io/apis/ayushrai-site/ayushrai-site-search-api/) — The Search API from ayushrai-site — 2 operation(s) for search.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Ayushrai Site Agentic Access](https://apis.io/agentic-access/ayushrai-site/ayushrai-site-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AskRequest](https://apis.io/schemas/ayushrai-site/ayushrai-site-ask-request/)
+- [AskResponse](https://apis.io/schemas/ayushrai-site/ayushrai-site-ask-response/)
+- [CompareResponse](https://apis.io/schemas/ayushrai-site/ayushrai-site-compare-response/)
+- [ProjectListResponse](https://apis.io/schemas/ayushrai-site/ayushrai-site-project-list-response/)
+- [SearchResponse](https://apis.io/schemas/ayushrai-site/ayushrai-site-search-response/)
+- [ServerCard](https://apis.io/schemas/ayushrai-site/ayushrai-site-server-card/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ayushrai Site Context](https://apis.io/jsonld/ayushrai-site/ayushrai-site-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Ayushrai Site Openapi Overlay](https://apis.io/overlays/ayushrai-site/ayushrai-site-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ayushrai-site API Rules](https://apis.io/rules/ayushrai-site/ayushrai-site-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ayushrai Site Authentication](https://apis.io/security/ayushrai-site/ayushrai-site-authentication/)
+- [Ayushrai Site Domain Security](https://apis.io/security/ayushrai-site/ayushrai-site-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Ayushrai Site Scopes](https://apis.io/scopes/ayushrai-site/ayushrai-site-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ayushrai Site Plans Pricing](https://apis.io/plans/ayushrai-site/ayushrai-site-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ayushrai Site Rate Limits](https://apis.io/rate-limits/ayushrai-site/ayushrai-site-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ayushrai.site/)
+- [Documentation](https://www.ayushrai.site/developers/)
+- [API reference](https://www.ayushrai.site/openapi.json)
+- [Support](https://www.ayushrai.site/contact)
+- [Privacy policy](https://www.ayushrai.site/privacy)
+- [GitHub](https://github.com/ayushrai-hub)
+
+## API Evangelist rating
+
+**Kin Score 48.8** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 56.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 42.6 |
+| Developer ergonomics | 44.5 |
+| Access clarity | 10.5 |
+
+**Agent readiness 57.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | near-conformant (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ayushrai-site/](https://apis.io/providers/ayushrai-site/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ayushrai-site: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ayushrai-site/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
